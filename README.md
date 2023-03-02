@@ -2,8 +2,6 @@
 
 OpenShift GitOps is an add-on on OpenShift which provides Argo CD and other tooling to enable teams to implement GitOps workflows for cluster configuration and application delivery. OpenShift GitOps provides [Argo CD](https://argo-cd.readthedocs.io/en/stable/) as the core of the GitOps workflow and [GitOps Application Manager CLI](https://github.com/redhat-developer/kam) in order to help developers bootstrap a GitOps workflow for delivering applications.
 
-[GitOps Application Manager CLI](https://access.redhat.com/documentation/pt-br/openshift_container_platform/4.9/html/cicd/gitops#deploying-a-spring-boot-application-with-argo-cd)
-
 This repository contains a brief Getting Started guide for trying out OpenShift GitOps.
 
 * [Install OpenShift GitOps](#install-openshift-gitops)
@@ -11,7 +9,7 @@ This repository contains a brief Getting Started guide for trying out OpenShift 
 * [Configure OpenShift with Argo CD](#configure-openshift-with-argo-cd)
 * [Deploy Applications with Argo CD](#deploy-applications-with-argo-cd)
 * [Additional Argo CD instances](#additional-argo-cd-instances)
-* [Gitops Start Spring Boot App](https://access.redhat.com/documentation/pt-br/openshift_container_platform/4.9/html/cicd/gitops#deploying-a-spring-boot-application-with-argo-cd
+* [Gitops Start Spring Boot App](https://access.redhat.com/documentation/pt-br/openshift_container_platform/4.9/html/cicd/gitops#deploying-a-spring-boot-application-with-argo-cd)
 
 ## Install OpenShift GitOps 
 
