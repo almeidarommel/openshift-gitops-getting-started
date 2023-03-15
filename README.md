@@ -127,6 +127,10 @@ Click on the **app-spring-petclinic** in the Argo CD dashboard to view the appli
 
 In the OpenShift Web Console, go to the **Developer** perspective to review the deployed application. 
 
+```
+oc label namespace spring-petclinic argocd.argoproj.io/managed-by=openshift-gitops
+```
+
 ![OpenShift - Spring PetClinic](images/gitops-12.png)
 
 In oder to modify the Spring PetClinic deployment, all the user needs to do is to commit the changes to the [app](app/) directory of the Git repository and the changes would automatically get deployed to the cluster. 
