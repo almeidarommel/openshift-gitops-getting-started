@@ -70,6 +70,14 @@ Enter the following details and click on **Create**.
 >  ```
 >  oc get application -n openshift-gitops
 >  ```
+> Run the following command below to give permissions for Gitops SA:
+>  ```
+>  oc adm policy add-role-to-user admin system:serviceaccount:openshift-gitops:openshift-gitops-argocd-application-controller
+>  ```
+> Run the following command below to create label for specific namespace become able to use ArgoCD:
+>  ```
+>  oc label namespace spring-petclinic argocd.argoproj.io/managed-by=openshift-gitops
+>  ```
 
 Looking at the Argo CD dashboard, you would notice that the **cluster-configs** Argo CD application is created by is out of sync, since we configured it with manual sync policy.
 
